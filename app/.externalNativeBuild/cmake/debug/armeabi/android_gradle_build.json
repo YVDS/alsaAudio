@@ -1,0 +1,46 @@
+
+{
+	"buildFiles" : [ "D:/SourceCode/alsaAudio/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\Evaldas\\AppData\\Local\\Android\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\SourceCode\\alsaAudio\\app\\.externalNativeBuild\\cmake\\debug\\armeabi --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"alsarecord-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "alsarecord",
+			"buildCommand" : "C:\\Users\\Evaldas\\AppData\\Local\\Android\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\SourceCode\\alsaAudio\\app\\.externalNativeBuild\\cmake\\debug\\armeabi --target alsarecord",
+			"buildType" : "debug",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=armv5te-none-linux-androideabi --gcc-toolchain=C:/Users/Evaldas/AppData/Local/Android/sdk/ndk-bundle/toolchains/arm-linux-androideabi-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Evaldas/AppData/Local/Android/sdk/ndk-bundle/platforms/android-21/arch-arm  -Dalsarecord_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp -isystem C:\\Users\\Evaldas\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\Users\\Evaldas\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\armeabi\\include -isystem C:\\Users\\Evaldas\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -march=armv5te -mtune=xscale -msoft-float -fno-integrated-as -mthumb -Wa,--noexecstack -Wformat -Werror=format-security   -O0 -fno-limit-debug-info -O0 -fno-limit-debug-info  -fPIC    -c ",
+					"src" : "D:/SourceCode/alsaAudio/app/src/main/cpp/alsarecord.cpp",
+					"workingDirectory" : "D:/SourceCode/alsaAudio/app/.externalNativeBuild/cmake/debug/armeabi"
+				}
+			],
+			"output" : "D:/SourceCode/alsaAudio/app/build/intermediates/cmake/debug/obj/armeabi/libalsarecord.so",
+			"toolchain" : "866251225"
+		},
+		"lib_tinyalsa-Debug-armeabi" : 
+		{
+			"abi" : "armeabi",
+			"artifactName" : "lib_tinyalsa",
+			"buildType" : "debug",
+			"output" : "D:/SourceCode/alsaAudio/app/src/main/jniLibs/libtinyalsa.so",
+			"toolchain" : "866251225"
+		}
+	},
+	"toolchains" : 
+	{
+		"866251225" : 
+		{
+			"cCompilerExecutable" : "C:/Users/Evaldas/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/Evaldas/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

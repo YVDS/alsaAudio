@@ -1,4 +1,4 @@
-package com.verveba.tapasaudiorec;
+package com.verveba.alsaAudio;
 
 import org.junit.Test;
 

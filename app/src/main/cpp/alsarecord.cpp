@@ -92,7 +92,7 @@ static jboolean stopRecordPCM() {
 }
 
 JNIEXPORT jboolean JNICALL
-Java_com_verveba_tapasaudiorec_MainActivity_startAlsaRecording( JNIEnv* env,
+Java_com_verveba_alsaAudio_MainActivity_startAlsaRecording( JNIEnv* env,
                                                   jobject thiz )
 {
     return startRecordPCM();
@@ -100,7 +100,7 @@ Java_com_verveba_tapasaudiorec_MainActivity_startAlsaRecording( JNIEnv* env,
 }
 
 JNIEXPORT jboolean JNICALL
-Java_com_verveba_tapasaudiorec_MainActivity_stopAlsaRecording( JNIEnv* env,
+Java_com_verveba_alsaAudio_MainActivity_stopAlsaRecording( JNIEnv* env,
                                                   jobject thiz )
 {
     return stopRecordPCM();

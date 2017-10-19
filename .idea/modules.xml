@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TapasAudioRec.iml" filepath="$PROJECT_DIR$/TapasAudioRec.iml" />
+      <module fileurl="file://$PROJECT_DIR$/alsaAudio.iml" filepath="$PROJECT_DIR$/alsaAudio.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

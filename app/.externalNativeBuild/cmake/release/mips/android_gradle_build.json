@@ -1,0 +1,46 @@
+
+{
+	"buildFiles" : [ "D:/SourceCode/alsaAudio/app/CMakeLists.txt" ],
+	"cleanCommands" : 
+	[
+		"C:\\Users\\Evaldas\\AppData\\Local\\Android\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\SourceCode\\alsaAudio\\app\\.externalNativeBuild\\cmake\\release\\mips --target clean"
+	],
+	"cppFileExtensions" : [ "cpp" ],
+	"libraries" : 
+	{
+		"alsarecord-Release-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "alsarecord",
+			"buildCommand" : "C:\\Users\\Evaldas\\AppData\\Local\\Android\\sdk\\cmake\\3.6.3155560\\bin\\cmake.exe --build D:\\SourceCode\\alsaAudio\\app\\.externalNativeBuild\\cmake\\release\\mips --target alsarecord",
+			"buildType" : "release",
+			"files" : 
+			[
+				
+				{
+					"flags" : "  --target=mipsel-none-linux-android --gcc-toolchain=C:/Users/Evaldas/AppData/Local/Android/sdk/ndk-bundle/toolchains/mips64el-linux-android-4.9/prebuilt/windows-x86_64 --sysroot=C:/Users/Evaldas/AppData/Local/Android/sdk/ndk-bundle/platforms/android-21/arch-mips  -Dalsarecord_EXPORTS -I..\\..\\..\\..\\src\\main\\cpp -isystem C:\\Users\\Evaldas\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include -isystem C:\\Users\\Evaldas\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\libs\\mips\\include -isystem C:\\Users\\Evaldas\\AppData\\Local\\Android\\sdk\\ndk-bundle\\sources\\cxx-stl\\gnu-libstdc++\\4.9\\include\\backward  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security  -g -DANDROID -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -mips32 -Wa,--noexecstack -Wformat -Werror=format-security   -O2 -DNDEBUG -O2 -DNDEBUG  -fPIC    -c ",
+					"src" : "D:/SourceCode/alsaAudio/app/src/main/cpp/alsarecord.cpp",
+					"workingDirectory" : "D:/SourceCode/alsaAudio/app/.externalNativeBuild/cmake/release/mips"
+				}
+			],
+			"output" : "D:/SourceCode/alsaAudio/app/build/intermediates/cmake/release/obj/mips/libalsarecord.so",
+			"toolchain" : "866251225"
+		},
+		"lib_tinyalsa-Release-mips" : 
+		{
+			"abi" : "mips",
+			"artifactName" : "lib_tinyalsa",
+			"buildType" : "release",
+			"output" : "D:/SourceCode/alsaAudio/app/src/main/jniLibs/libtinyalsa.so",
+			"toolchain" : "866251225"
+		}
+	},
+	"toolchains" : 
+	{
+		"866251225" : 
+		{
+			"cCompilerExecutable" : "C:/Users/Evaldas/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang.exe",
+			"cppCompilerExecutable" : "C:/Users/Evaldas/AppData/Local/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/windows-x86_64/bin/clang++.exe"
+		}
+	}
+}

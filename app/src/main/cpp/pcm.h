@@ -322,4 +322,4 @@ long pcm_get_delay(struct pcm *pcm);
 }  /* extern "C" */
 #endif
 
-#endif //TAPASAUDIOREC_PCM_H
+#endif //alsaAudio_PCM_H

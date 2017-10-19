@@ -1,4 +1,4 @@
-package com.verveba.tapasaudiorec;
+package com.verveba.alsaAudio;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.verveba.tapasaudiorec", appContext.getPackageName());
+        assertEquals("com.verveba.alsaAudio", appContext.getPackageName());
     }
 }
