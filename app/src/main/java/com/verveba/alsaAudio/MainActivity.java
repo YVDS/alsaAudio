@@ -37,10 +37,19 @@ public class MainActivity extends AppCompatActivity
         ERROR
     }
 
-    // Used to load the 'native-lib' library on application startup.
+    // Used to load native library on application startup.
     static {
-        System.loadLibrary("nativeLib");
-        System.loadLibrary("libtinyalsa");
+        System.loadLibrary("alsarecord");
+        System.loadLibrary("tinyalsa");
+        System.loadLibrary("cutils");
+        System.loadLibrary("c++");
+        System.loadLibrary("utils");
+        System.loadLibrary("backtrace");
+        System.loadLibrary("base");
+        System.loadLibrary("unwind");
+        System.loadLibrary("crypto");
+        System.loadLibrary("binder");
+        System.loadLibrary("lzma");
     }
 
     @Override
@@ -50,12 +59,6 @@ public class MainActivity extends AppCompatActivity
 
         isRecording = false;
         recorderState = State.IDLE;
-
-        /*
-        // Example of a call to a native method
-        TextView tv = (TextView) findViewById(R.id.sample_text);
-        tv.setText(stringFromJNI());
-        */
     }
 
     @Override
@@ -158,6 +161,7 @@ public class MainActivity extends AppCompatActivity
     }
 
     public void startRecording() {
+/*
         if(isRecording) return;
 
         boolean result;
@@ -174,6 +178,8 @@ public class MainActivity extends AppCompatActivity
         } else {
             resetRecorder();
         }
+        */
+        startAlsaRecording();
     }
 
     public void stopRecording(View view) {

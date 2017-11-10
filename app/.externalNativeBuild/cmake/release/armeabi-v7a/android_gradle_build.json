@@ -26,12 +26,84 @@
 			"output" : "D:/SourceCode/alsaAudio/app/build/intermediates/cmake/release/obj/armeabi-v7a/libalsarecord.so",
 			"toolchain" : "866251225"
 		},
+		"lib_backtrace-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "lib_backtrace",
+			"buildType" : "release",
+			"output" : "D:/SourceCode/alsaAudio/app/src/main/jniLibs/armeabi-v7a//libbacktrace.so",
+			"toolchain" : "866251225"
+		},
+		"lib_base-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "lib_base",
+			"buildType" : "release",
+			"output" : "D:/SourceCode/alsaAudio/app/src/main/jniLibs/armeabi-v7a//libbase.so",
+			"toolchain" : "866251225"
+		},
+		"lib_binder-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "lib_binder",
+			"buildType" : "release",
+			"output" : "D:/SourceCode/alsaAudio/app/src/main/jniLibs/armeabi-v7a//libbinder.so",
+			"toolchain" : "866251225"
+		},
+		"lib_cplusplus-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "lib_cplusplus",
+			"buildType" : "release",
+			"output" : "D:/SourceCode/alsaAudio/app/src/main/jniLibs/armeabi-v7a//libc++.so",
+			"toolchain" : "866251225"
+		},
+		"lib_crypto-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "lib_crypto",
+			"buildType" : "release",
+			"output" : "D:/SourceCode/alsaAudio/app/src/main/jniLibs/armeabi-v7a//libcrypto.so",
+			"toolchain" : "866251225"
+		},
+		"lib_cutils-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "lib_cutils",
+			"buildType" : "release",
+			"output" : "D:/SourceCode/alsaAudio/app/src/main/jniLibs/armeabi-v7a//libcutils.so",
+			"toolchain" : "866251225"
+		},
+		"lib_lzma-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "lib_lzma",
+			"buildType" : "release",
+			"output" : "D:/SourceCode/alsaAudio/app/src/main/jniLibs/armeabi-v7a//liblzma.so",
+			"toolchain" : "866251225"
+		},
 		"lib_tinyalsa-Release-armeabi-v7a" : 
 		{
 			"abi" : "armeabi-v7a",
 			"artifactName" : "lib_tinyalsa",
 			"buildType" : "release",
-			"output" : "D:/SourceCode/alsaAudio/app/src/main/jniLibs/libtinyalsa.so",
+			"output" : "D:/SourceCode/alsaAudio/app/src/main/jniLibs/armeabi-v7a//libtinyalsa.so",
+			"toolchain" : "866251225"
+		},
+		"lib_unwind-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "lib_unwind",
+			"buildType" : "release",
+			"output" : "D:/SourceCode/alsaAudio/app/src/main/jniLibs/armeabi-v7a//libunwind.so",
+			"toolchain" : "866251225"
+		},
+		"lib_utils-Release-armeabi-v7a" : 
+		{
+			"abi" : "armeabi-v7a",
+			"artifactName" : "lib_utils",
+			"buildType" : "release",
+			"output" : "D:/SourceCode/alsaAudio/app/src/main/jniLibs/armeabi-v7a//libutils.so",
 			"toolchain" : "866251225"
 		}
 	},

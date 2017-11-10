@@ -282,7 +282,7 @@ int pcm_writei(struct pcm *pcm, const void *data, unsigned int frame_count);
 
 int pcm_readi(struct pcm *pcm, void *data, unsigned int frame_count);
 
-#ifdef __GNUC__
+#ifndef __GNUC__
 
 int pcm_write(struct pcm *pcm, const void *data, unsigned int count) __attribute((deprecated));
 

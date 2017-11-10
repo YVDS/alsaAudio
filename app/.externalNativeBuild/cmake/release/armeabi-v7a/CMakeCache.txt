@@ -193,7 +193,7 @@ Project_BINARY_DIR:STATIC=D:/SourceCode/alsaAudio/app/.externalNativeBuild/cmake
 Project_SOURCE_DIR:STATIC=D:/SourceCode/alsaAudio/app
 
 //Dependencies for the target
-alsarecord_LIB_DEPENDS:STATIC=general;android;general;lib_tinyalsa;general;log;
+alsarecord_LIB_DEPENDS:STATIC=general;android;general;lib_tinyalsa;general;lib_cutils;general;lib_cplusplus;general;lib_utils;general;lib_backtrace;general;lib_base;general;lib_unwind;general;lib_crypto;general;lib_binder;general;lib_lzma;general;log;
 
 
 ########################
